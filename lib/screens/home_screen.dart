@@ -2,7 +2,9 @@ import 'package:facebook_ui/config/palette.dart';
 import 'package:facebook_ui/data/data.dart';
 import 'package:facebook_ui/models/models.dart';
 import 'package:facebook_ui/widgets/circle_button.dart';
+import 'package:facebook_ui/widgets/contacts_list.dart';
 import 'package:facebook_ui/widgets/create_post_container.dart';
+import 'package:facebook_ui/widgets/more_options_list.dart';
 import 'package:facebook_ui/widgets/post_container.dart';
 import 'package:facebook_ui/widgets/responsive.dart';
 import 'package:facebook_ui/widgets/rooms.dart';
@@ -131,7 +133,7 @@ class _HomeScreenDesktop extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: Padding(
               padding: const EdgeInsets.all(12.0),
-             // child: MoreOptionsList(currentUser: currentUser),
+              child: MoreOptionsList(currentUser: currentUser),
             ),
           ),
         ),
@@ -178,7 +180,7 @@ class _HomeScreenDesktop extends StatelessWidget {
             alignment: Alignment.centerRight,
             child: Padding(
               padding: const EdgeInsets.all(12.0),
-             // child: ContactList(users: onlineUsers),
+              child: ContactsList(users: onlineUsers),
             ),
           ),
         ),
