@@ -3,7 +3,7 @@ import 'package:facebook_ui/models/models.dart';
 import 'package:facebook_ui/widgets/circle_button.dart';
 import 'package:facebook_ui/widgets/custom_tab_bar.dart';
 import 'package:facebook_ui/widgets/user_card.dart';
-import 'package:flutter/material.dart';';
+import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class CustomAppBar extends StatelessWidget {
